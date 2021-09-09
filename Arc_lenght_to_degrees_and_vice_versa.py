@@ -1,7 +1,6 @@
 import math
 from fractions import Fraction
 
-
 def arc_lenght_to_degrees(quotator, denominator):
     return math.ceil(((quotator / denominator) * math.pi) * (180 / math.pi))
 
